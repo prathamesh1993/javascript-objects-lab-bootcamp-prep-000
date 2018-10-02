@@ -23,3 +23,9 @@ function deleteFromObjectByKey(object, key){
   delete new_object[key]
   return  new_object
 }
+
+function deleteFromObjectByKey(object, key){
+  var new_object = object
+  delete new_object[key]
+  return  new_object
+}
